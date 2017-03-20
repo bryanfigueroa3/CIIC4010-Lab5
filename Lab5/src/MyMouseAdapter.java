@@ -234,6 +234,7 @@ public class MyMouseAdapter extends MouseAdapter {
             } 
             myPanel.repaint();
             break;
+            //LastQs
         case 3:		//Right mouse button
 			Component cR = e.getComponent();
 			while (!(cR instanceof JFrame)) {
